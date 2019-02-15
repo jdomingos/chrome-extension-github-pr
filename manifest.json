@@ -4,8 +4,7 @@
     "description": "Does what the title says",
     "manifest_version": 2,
     "content_scripts": [{
-        "css": ["styles.css"],
         "js": ["background.js"],
-        "matches": ["https://github.com/spreaker/www-site/pull/*/files"]
+        "matches": ["https://github.com/*"]
     }]
 }
