@@ -3,4 +3,9 @@
     "version": "1.0",
     "description": "Does what the title says",
     "manifest_version": 1
+    
+      "content_scripts": [{
+        "css": ["styles.css"],
+        "matches": ["https://github.com/spreaker/www-site/pull/*"]
+      }]
   }
