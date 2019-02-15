@@ -1,10 +1,11 @@
-  {
+{
     "name": "GitHub PR Review 100%",
     "version": "1.0",
     "description": "Does what the title says",
     "manifest_version": 2,
     "content_scripts": [{
-      "css": ["styles.css"],
-      "matches": ["https://github.com/spreaker/www-site/pull/*"]
+        "css": ["styles.css"],
+        "js": ["background.js"],
+        "matches": ["https://github.com/spreaker/www-site/pull/*/files"]
     }]
-  }
+}
